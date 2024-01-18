@@ -1,0 +1,65 @@
+{
+    "intents": [
+       {
+          "tag": "a",
+          "patterns": ["safda", "dafdafas", "aaa", "asfda"],
+          "responses": ["sorry, ban can gi a", "xin ban noi lai voi a", "minh khong hieu ban noi"],
+          "context_set": ""
+       },
+       {
+          "tag": "greeting",
+          "patterns": ["Hi", "khoe khong em oi", "ban khoe khong", "Hello", "Good day", "Whats up", "xin chao"],
+          "responses": ["Hello!", "xin chao, rat vui duoc gap lai ban", "lau ngay khong gap, nhin ban map len nhi"],
+          "context_set": ""
+       },
+       {
+          "tag": "goodbye",
+          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "tam biet"],
+          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "buon qua, hen gap lai ban nhe"],
+          "context_set": ""
+       },
+       {
+          "tag": "age",
+          "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?", "tuoi", "tuoi cua toi"],
+          "responses": ["hai muoi mot tuoi", "21 tuoi"],
+          "context_set": ""
+       },
+       {
+          "tag": "name",
+          "patterns": ["what is your name", "what should I call you", "whats your name?", "ten", "ban ten gi"],
+          "responses": ["You can call me Binh.", "I'm Binh", "minh la Binh"],
+          "context_set": ""
+       },
+       {
+          "tag": "shop",
+          "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+          "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+          "context_set": ""
+       },
+       {
+          "tag": "truong",
+          "patterns": ["ban hoc truong nao", "truong", "ten truong"],
+          "responses": ["Truong DHBKHN", "BKHN"],
+          "context_set": ""
+       },
+       {
+          "tag": "where",
+          "patterns": ["where", "o dau", "ban o dau", "khuc nao"],
+          "responses": ["HN", "BK", "BKHN"],
+          "context_set": ""
+       },
+       {
+          "tag": "dctruong",
+          "patterns": ["dia chi truong ", "truong o cho nao", "truong o dau"],
+          "responses": ["", ""],
+          "context_set": ""
+       },
+       {
+          "tag": "help",
+          "patterns": ["help", "giup toi voi", "ban co the giup toi duoc khong"],
+          "responses": ["ban can giup gi", "toi co the giup gi cho ban", "toi so khong giup duoc ban roi"],
+          "context_set": ""
+       }
+    ]
+ }
+ 
